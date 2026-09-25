@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>&copy; Michał Werkowski Site</title>
+    <link rel="stylesheet" href="./css/x.css">
+  </head>
+  <body style="background-color: #eeeeff; ">
+    <h1>Poradnik tworzenia stron w kodowaniu HTML5 (h1)</h1>
+    <div>
+      <header>
+        <p><a id="st">Spis treści</a></p>
+          <ol>
+            <li>
+              <a href="#sec1">Kodowanie paragrafów</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#1.1">Formatowanie za pomocą poleceń</a></li>
+                <li><a href="#1.2">Kolory w HTMLu.</a></li>
+                <li><a href="#1.3">Nietypowe paragrafy</a></li>
+              </ol>
+            </li>
+            <li><a href="#sec2">Listy, czyli wykazy</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#2.1">Listy numerowane</a></li>
+                <li><a href="#2.2">Listy punktowane</a></li>
+                <li><a href="#2.3">Listy definicji</a></li>
+                <li><a href="#2.4">Lista wielopoziomowa</a></li>
+              </ol>
+            </li>
+            <li><a href="#sec3">Odnośniki (linki, hiperłącza, hiperlinki)</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#3.1">Odnośnik tekstowy do innego serwisu (innej strony)</a></li>
+                <li><a href="#3.2">Odnośniki złożone i funkcjonalne</a></li>
+                <li><a href="#3.3">Inne odnośniki</a></li>
+              </ol>
+            </li>
+          </ol>
+      </header>
+      <section>
+        <h2><a id="sec1">Kodowanie paragrafów (h2)</a></h2>
+        <div>
+          <article>
+            <h3><a id="#1.1">Formatowanie za pomocą poleceń (h3)</a></h3>
+            <p>Nagłówki artykułu mogą mieć 4 poziomy od h3 do h6.</p>
+            <p>Treść, dużo treści, jeszcze więcej treści...</p>
+            <p>Nowy akapit tej strony</p>
+            <p>To będzie tekst do <b>sformatowania częściowego</b>. - "b" to stary typ formatowania.</p>
+            <p>To będzie tekst do <strong>sformatowania częściowego</strong>. - "strong" to nowy typ formatowania - wzmocnienie.</p>
+            <p>To będzie tekst do <i>sformatowania częściowego</i>. - "i" </p>
+            <p>To będzie tekst do <em>sformatowania częściowego</em>. - "em" to nowy typ formatowania - emphasis.</p>
+            <p>To będzie tekst do <u>sformatowania częściowego</u>.</p>
+            <p>To będzie tekst do <ins>sformatowania częściowego</ins>. - "ins" to nowy typ formatowania - wstawienie.</p>
+            <p>To będzie tekst do <cite>sformatowania częściowego</cite>. - "cite" to stary typ formatowania.</p>
+            <p>To będzie tekst do <q>sformatowania częściowego</q>. - "q" to nowy typ formatowania - quote.</p>
+            <p>To będzie tekst do <ins><strong><em>sformatowania</em> częściowego</strong> tylko</ins>.</p>
+            <!-- <p>To będzie tekst do <strike>sformatowania częściowego</strike>. - "strike" to stary typ formatowania - przekreślenie.</p> -->
+            <p>To będzie tekst do <del>sformatowania częściowego</del>. - "del" to nowy typ formatowania - przekreślenie.</p>
+            <p>To będzie tekst do <del>sformatowania częściowego</del>. - "del" to nowy typ formatowania - przekreślenie (dok. prawne).</p>
+            
+            <p>Tekst z wielospacją - tu &nbsp; &nbsp; 5 spacji - kody "& nbsp ;"</p>
+            
+            <p>Wzór chemiczny H<sub>2</sub>O - indeks dolny "sub"</p>
+            <p>Zapis powierzchni 100m<sup>2</sup>- indeks górny "sup"</p>
+            
+            <kbd>Tekst z treścią pisaną na klawiaturze. - polecenie "kbd"</kbd>
+            
+            <p>To będzie tekst do <mark>sformatowania częściowego</mark>. - "mark" to nowy typ formatowania - marker.</p>
+            
+            <!-- To jest komentarz, nie pokazuje się na właściwej stronie. -->
+            <!-- Niedozwolone polecenia sterujące wielkością znaków: big & small (7 wielkości)-->
+            <!-- <<p> To jest tekst zwykły (4), <big>większy (5)</big> i <big><big>jeszcze większy (6)</big></big>.</p>
+            
+            <p> <small>Jestem mały (3)</small>, <small><small>jestem mniejszy (2)</small></small>, ale już jestem normalny (4).</p> -->
+            
+            <p style="font-size: 20pt; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 20pt;".</p>
+            <p style="font-size: 20px; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 20px;".</p>
+            <p style="font-size: 0.75cm; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 0.75cm;".</p>
+            <p style="font-size: 1.5pc; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 1.5pc;".</p>
+            <p style="font-size: 0.25in; font-style: italic; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 0.25in; font-style:italic;".</p>
+            <p style="font-size: 2em; font-weight: bold; ">Tekst o zdefiniowanej wielkości za pomocą stylów. Styl to opcja polecenia, a wartości stylów to para zapisów - "cecha:wartość;" w cudzysłowie. Jeśli cecha ma więcej wyrazów w nazwie, to łączymy je myślnikami, np. "font-size: 2em; font-weight:bold;".</p>
+            
+            <!-- Do wydzielania fragmentu wewnątrz paragrafu do formatowania za pomocą stylów używamy polecenia <span> -->
+            
+            <p>To jest bardzo długi paragraf, który musi być wewnętrznie "złamany".<br><span style="font-weight:bold;">Let me forget everything<br>And leave no trace of you</span><br>What am I carrying out in this horizon of despair?<br>If its not you I can hurt anyone in the name of justice<br>Your shadow gets in the way of my light<br><span style="font-weight:bold;font-style:italic;">And testify</span></p>
+            
+            <!-- Do wydzielania wielu paragrafów do jednorodnego formatowania za pomocą stylów używamy polecenia <div> -->
+            <div style="font-size: 1.25pc; ">
+              <p>To jest bardzo krótki paragraf w bloku.</p>
+              <p>To jest bardzo krótki paragraf w bloku.</p>
+              <p>To jest bardzo krótki paragraf w bloku.</p>
+            </div>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="1.2">Kolory w HTMLu.</a></h3>
+            <p>HTML ma 16 kolory podstawowe:
+              black, white,
+              <span style="color: red;" >red</span>, 
+              <span style="color: green;" >green</span>, 
+              <span style="color: blue;" >blue</span>, 
+              <span style="color: yellow;" >yellow</span>, 
+              <span style="color: olive;" >olive</span>, 
+              <span style="color: purple;" >purple</span>, 
+              <span style="color: teal;" >teal</span>, 
+              <span style="color: aqua;" >aqua</span>, 
+              <span style="color: navy;" >navy</span>, 
+              <span style="color: maroon; ">maroon</span>, 
+              <span style="color: fuchsia; ">fuchsia</span>, 
+              <span style="color: silver; ">silver</span>, 
+              <span style="color: lime; ">lime</span>, i 
+              <span style="color: gray; ">gray</span>.
+            </p>
+            <p>Opcję "style" można przypiąć do dowolnego* polecenia części "body".</p>
+            <div style="width: 100%; height: 18px; background-color: silver; ">
+              Można również zmienić kolor tła, tak jak jest podany w tym elemencie.
+            </div>
+            <p>Rozszerzona paleta barw HTML z nazwami znajduję się <a href="https://www.w3schools.com/colors/colors_names.asp">tutaj</a>.</p>
+            <p>Pełna paleta barw HTML kodowana w standardzie RGB w kodowaniu HEX i inne: 0-9 + A-F — zapis to znak # i 2 cyfry na każdy kolor składowy, np. <span style="color: #FF0000; ">#FF0000</span></p>
+            <p>Pełna paleta barw HTML kodowana w standardzie RGB w kodowaniu DEC: <span style="color: RGB(0,0,255); ">RGB(0,0,255)</span></p>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="1.3">Nietypowe paragrafy</a></h3>
+            <p>Kliknij w nazwisko, aby dowiedzieć się więcej o człowieku:</p>
+            <details> <!-- kontener treści ukrytej -->
+              <summary>Cywiński Kazimierz</summary> <!-- inicjator kontenera -->
+              <p>Były uczeń II LO w Elblągu, obecnie kierowca Formuły 1 z największą ilością poll position w jednym sezonie.</p>
+            </details>
+            <details>
+              <summary>Jarmużewski Filip</summary> <!-- inicjator kontenera -->
+              <p>Były uczeń II LO w Elblągu, obecnie pracownik ESA, odpowiedzialny za cyberbezpieczeństwo lotów kosmicznych.</p>
+            </details>
+            <p>&nbsp;</p>
+            <address>Michał Werkowski<br>82-300 Elbląg<br>ul. Królewiecka 42<br>e-mail: email@email.com</address>
+            <p>&nbsp;</p>
+            <blockquote>Litwo, Ojczyzno moja,<br> Ty jesteś, jak zdrowie...</blockquote>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <aside>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <h2><a id="sec2">Listy, czyli wykazy</a></h2>
+        <div>
+          <article>
+            <h3><a id="2.1">Listy numerowane</a></h3>
+            <ol> <!-- ordinary, uporządkowana -->
+              <li>Pierwszy element</li>
+              <li>Drugi element</li>
+              <li>Trzeci element</li>
+              <li>Czwarty element</li>
+            </ol>
+            <ol style="list-style-type: upper-alpha; ">
+              <li>Pierwszy element</li>
+              <li>Drugi element</li>
+              <li>Trzeci element</li>
+              <li>Czwarty element</li>
+            </ol>
+            <p>Inne style list: lower-alpha, upper-roman, lower-roman, decimal (domyślny), decimal-leading-zero, upper-greek, lower-greek, hebrew, armenian, georgian</p>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="2.2">Listy punktowane</a></h3>
+            <ul> <!-- unordinary, nieuporządkowana // domyślny: disc -->
+              <li>Jakiś element</li>
+              <li>Jakiś dodatkowy element</li>
+              <li>Jakiś unikatowy element</li>
+              <li>Jakiś dziesiąty element</li>
+            </ul>
+            <ul style="list-style-type: square; ">
+              <li>Jakiś element</li>
+              <li>Jakiś dodatkowy element</li>
+              <li>Jakiś unikatowy element</li>
+              <li>Jakiś dziesiąty element</li>
+            </ul>
+            <ul style="list-style-type: circle; ">
+              <li>Jakiś element</li>
+              <li>Jakiś dodatkowy element</li>
+              <li>Jakiś unikatowy element</li>
+              <li>Jakiś dziesiąty element</li>
+            </ul>
+            <p>Można stosować dowolny obrazek jako element punktujący. Niestety, nie można ustawić jego wielkości.</p>
+            <ul style="list-style-image: url(https://icons.iconarchive.com/icons/github/octicons/16/inbox-16-icon.png); ">
+              <li>Jakiś element</li>
+              <li>Jakiś dodatkowy element</li>
+              <li>Jakiś unikatowy element</li>
+              <li>Jakiś dziesiąty element</li>
+            </ul>
+            
+            <ul style="list-style-image: url(./img/GithubOctDot-16px.png); ">
+              <li>Jakiś element</li>
+              <li>Jakiś dodatkowy element</li>
+              <li>Jakiś unikatowy element</li>
+              <li>Jakiś dziesiąty element</li>
+            </ul>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="2.3">Listy definicji</a></h3>
+            <dl>
+              <dt>Cywiński Kazimierz</dt>
+              <dd>Były uczeń II LO w Elblągu, obecnie kierowca Formuły 1 z największą ilością poll position w jednym sezonie.</dd>
+              <dt>Jarmużewski Filip</dt>
+              <dd>Były uczeń II LO w Elblągu, obecnie pracownik ESA, odpowiedzialny za cyberbezpieczeństwo lotów kosmicznych.</dd>
+            </dl>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="2.4">Lista wielopoziomowa</a></h3>
+            <ol style="list-style-type: upper-roman; ">
+              <li>Punkt pierwszy - poziom pierwszy</li>
+              <li>Punkt drugi - poziom pierwszy
+                <ol style="list-style-type: decimal; ">
+                  <li>Punkt pierwszy - poziom drugi w punkcie drugim</li>
+                  <li>Punkt drugi - poziom drugi w punkcie drugim
+                    <ol style="list-style-type: lower-alpha">
+                      <li>Punkt pierwszy - poziom trzeci w punkcie drugim punktu drugiego</li>
+                      <li>Punkt drugi - poziom trzeci w punkcie drugim punktu drugiego
+                        <ul style="list-style-type: disc; ">
+                          <li>Element X - poziom czwarty w punkcie drugim punktu drugiego punktu drugiego</li>
+                          <li>Element Y - poziom czwarty w punkcie drugim punktu drugiego punktu drugiego</li>
+                          <li>Element Z - poziom czwarty w punkcie drugim punktu drugiego punktu drugiego</li>
+                        </ul>
+                      </li>
+                      <li>Punkt trzeci - poziom trzeci w punkcie drugim punktu drugiego</li>
+                    </ol>
+                  </li>
+                  <li>Punkt trzeci - poziom drugi w punkcie drugim</li>
+                </ol>
+              </li>
+              <li>Punkt trzeci - poziom pierwszy</li>
+              <li>Punkt czwarty - poziom pierwszy
+                <ol style="list-style-type: decimal; ">
+                  <li>Punkt pierwszy - poziom drugi w punkcie czwartym</li>
+                  <li>Punkt drugi - poziom drugi w punkcie czwartym
+                    <ol style="list-style-type: lower-alpha">
+                      <li>Punkt pierwszy - poziom trzeci w punkcie drugim punktu czwartego</li>
+                      <li>Punkt drugi - poziom trzeci w punkcie drugim punktu czwartego</li>
+                      <li>Punkt trzeci - poziom trzeco w punkcie drugim punktu czwartego</li>
+                    </ol>
+                  </li>
+                  <li>Punkt trzeci - poziom drugi w punkcie drugim</li>
+                </ol>
+              </li>
+              <li>Punkt piąty - poziom pierwszy</li>
+            </ol>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <aside>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <h2><a id="sec3">Odnośniki (linki, hiperłącza, hiperlinki)</a></h2>
+        <div>
+          <article>
+            <h3><a id="3.1">Odnośnik tekstowy do innego serwisu (innej strony)</a></h3>
+            <!--
+              Budowa URL:
+              protokół transmisji (http, https, ftp, itp.)
+              IPv4 lub IPv6 -> domena (2lo.elbląg.pl, onet.pl, itp.)
+              subdomena/domena funkcjonalna (sport.onet.pl, kobieta.onet.pl i inne)
+              foldery i podfoldery
+              plik
+              
+              Jeśli nie piszemy nazwy pliku, to musi być domyślny index.html, index.htm, index.asp, index.php, index.dhtml
+              -->
+            <p>Odnośnik tekstowy do innego serwisu (innej strony), np. <a href="https://www.kurshtml.edu.pl/html/html5.html" target="_blank">Kurs HTML5</a></p>
+            <p>Polecenie "a" - anchor (kotwica) z opcją target</p>
+            <p>Dla nowej karty trzeba dodać opcję target i dodać nazwę tzw. ramki lub nazwę techniczną: "_blank" (inne to:)</p>
+            <p>Przejdź do <a href="./druga.html">strony drugiej</a></p>
+            <p>Przejdź do <a href="./podstrony/trzecia.html">strony trzeciej</a></p>
+            <p>Wielkość liter w linkach (href) ma znaczenie i zależy od systemu operacyjnego serwera treści.</p>
+            <p>Jeśli chcesz w linkach wyjść do folderu wyższego poziomu, użyj odnośnika "../".</p>
+            <p>Przejście do strony głównej nnego serwisu nie wymaga wpisania nazwy pliku, ponieważ bedzie on zawsze nazwany "index". Rozszerzenie nie ma znaczenia. -> <a href="https://onet.pl">ONET</a></p>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="3.2">Odnośniki złożone i funkcjonalne</a></h3>
+            <p>Kotwice (anchor) wewnętrzne - miejsca w pliku, do których możemy przejść bezpośrednio.</p>
+            <p>Przejdź do strony <a href="./podstrony/trzecia.html">trzecia.html</a> albo przejdź do tej strony od razu do <a href="./podstrony/trzecia.html#szesc">szóstego paragrafu</a>.</p>
+            <p>Kotwicę ustawiamy poleceniem anchor z opcją "id".</p>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3><a id="3.3">Inne odnośniki</a></h3>
+            <p>Mamy odnośniki od innych protokołów</p>
+            <p><a href="#st">Wróć na początek</a></p>
+          </article>
+        <aside>
+        </aside>
+        </div>
+      </section>
+      <footer>
+      </footer>
+    </div>
+  </body>
+</html>
