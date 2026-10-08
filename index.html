@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>&copy; Michał Werkowski Site</title>
-    <link rel="stylesheet" href="./css/x.css">
+    <link rel="stylesheet" href="/css/x.css">
   </head>
   <body style="background-color: #eeeeff;">
     <h1>Poradnik tworzenia stron w kodowaniu HTML5 (h1)</h1>
@@ -199,7 +199,7 @@
               <li>Jakiś dziesiąty element</li>
             </ul>
             
-            <ul style="list-style-image: url(./img/GithubOctDot-16px.png); ">
+            <ul style="list-style-image: url(img/GithubOctDot-16px.png); ">
               <li>Jakiś element</li>
               <li>Jakiś dodatkowy element</li>
               <li>Jakiś unikatowy element</li>
@@ -283,10 +283,10 @@
             <p>Odnośnik tekstowy do innego serwisu (innej strony), np. <a href="https://www.kurshtml.edu.pl/html/html5.html" target="_blank">Kurs HTML5</a></p>
             <p>Polecenie "a" - anchor (kotwica) z opcją target</p>
             <p>Dla nowej karty trzeba dodać opcję target i dodać nazwę tzw. ramki lub nazwę techniczną: "_blank" (inne to:)</p>
-            <p>Przejdź do <a href="./druga.html">strony drugiej</a></p>
-            <p>Przejdź do <a href="./podstrony/trzecia.html">strony trzeciej</a></p>
+            <p>Przejdź do <a href="druga.html">strony drugiej</a></p>
+            <p>Przejdź do <a href="podstrony/trzecia.html">strony trzeciej</a></p>
             <p>Wielkość liter w linkach (href) ma znaczenie i zależy od systemu operacyjnego serwera treści.</p>
-            <p>Jeśli chcesz w linkach wyjść do folderu wyższego poziomu, użyj odnośnika "../".</p>
+            <p>Jeśli chcesz w linkach wyjść do folderu wyższego poziomu, użyj odnośnika "./".</p>
             <p>Przejście do strony głównej nnego serwisu nie wymaga wpisania nazwy pliku, ponieważ bedzie on zawsze nazwany "index". Rozszerzenie nie ma znaczenia. -> <a href="https://onet.pl">ONET</a></p>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
@@ -294,7 +294,7 @@
           <article>
             <h3><a id="3.2">Odnośniki złożone i funkcjonalne</a></h3>
             <p>Kotwice (anchor) wewnętrzne - miejsca w pliku, do których możemy przejść bezpośrednio.</p>
-            <p>Przejdź do strony <a href="./podstrony/trzecia.html">trzecia.html</a> albo przejdź do tej strony od razu do <a href="./podstrony/trzecia.html#szesc">szóstego paragrafu</a>.</p>
+            <p>Przejdź do strony <a href="podstrony/trzecia.html">trzecia.html</a> albo przejdź do tej strony od razu do <a href="podstrony/trzecia.html#szesc">szóstego paragrafu</a>.</p>
             <p>Kotwicę ustawiamy poleceniem anchor z opcją "id".</p>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
@@ -337,13 +337,13 @@
           <article>
             <h3><a id="4.1">Wstawianie i wstępne formatowanie zdjęć</a></h3>
             <div>
-              <img src="./img/20250901-Rozpoczecie_roku_szkolnego-1.jpg" style="width: 1020px; " alt="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)" title="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)"> <!-- archaizm width -->
+              <img src="img/20250901-Rozpoczecie_roku_szkolnego-1.jpg" style="width: 1020px; " alt="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)" title="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)"> <!-- archaizm width -->
               <br>
-              <img src="./img/20250921-Integracja_klas_pierwszych-01.jpg" style="width: 1020px; " alt="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)" title="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)">
+              <img src="img/20250921-Integracja_klas_pierwszych-01.jpg" style="width: 1020px; " alt="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)" title="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)">
             </div>
                         <!-- W opcji style można sterować szerokością i wysokością grafiki, ale zaleca się ustawienie jednego parametru, gdyż drugi się automatycznie dopasuje. -->
             <div>
-              <img src="./img/20250921-Integracja_klas_pierwszych-02.jpg" style="width:100%" alt="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)" title="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)">
+              <img src="img/20250921-Integracja_klas_pierwszych-02.jpg" style="width:100%" alt="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)" title="Obraz, który przedstawia klasę 1F podczas zajęć intergracyjnych. (Oryginał: 4096 x 1864)">
             </div>
             <!-- W opcji style ustawienie procentowe gwarantuje tzw. responzywność. -->
             <p>Jedziemy <img alt="samochodem" title="samochodem" src="https://icons.iconarchive.com/icons/iconoir-team/iconoir/24/car-icon.png"> na wycieczkę, żeby zobaczyć <img alt="góry" title="góry" src="https://icons.iconarchive.com/icons/fa-team/fontawesome/24/FontAwesome-Mountain-Sun-icon.png"> i wszyscy się bardzo <img src="https://icons.iconarchive.com/icons/bootstrap/bootstrap/24/Bootstrap-emoji-smile-icon.png" alt="cieszymy" title="cieszymy">.</p>
@@ -353,7 +353,7 @@
           <article>
           <h3><a id="4.2">Mapa odnośników</a></h3>
             <div>
-              <img src="./img/odsylacz.gif" usemap="#serwisy" alt="obraz z mapą odnośników">
+              <img src="img/odsylacz.gif" usemap="#serwisy" alt="obraz z mapą odnośników">
               <map name="serwisy">
                 <area shape="circle" coords="80,130,40" href="https://wdruk.pl/" alt="WDruk.pl - Centrum Dobrego Druku" title="WDruk.pl - Centrum Dobrego Druku" target=_blank>
                 <area shape="rect" coords="10,10,210,50" href="https://portel.pl/" alt="portEl.pl - Elbląska Gazeta Internetowa" title="portEl.pl - Elbląska Gazeta Internetowa" target=_blank>
@@ -363,11 +363,17 @@
               <!-- area shape: circle(xS,yS,r), rect(x,y,mx,my), poly(x1,y1,x2,y2,x3,y3, ... xn,yn) -->
             </div>
             <div>
-              <img src="" usemap="#" alt="Zdjęcie z zajęć intergracyjnych 1F.">
-              <map>
-                <area>
+              <img src="img/20250921-Integracja_klas_pierwszych-02-scaled.jpg" usemap="#integracja" alt="Zdjęcie z zajęć intergracyjnych 1F.">
+              <map name="integracja">
+                <area shape="poly" alt="Pani Wychowawczyni, Joanna Gronowska" title="Pani Wychowawczyni, Joanna Gronowska" coords="431,526,411,521,403,499,414,436,419,422,407,401,411,370,405,364,404,333,420,300,438,297,431,284,434,266,442,251,457,248,468,251,478,264,477,284,484,292,476,298,490,303,498,310,505,335,505,361,496,375,501,401,488,423,485,445,471,505,471,508,474,518,463,524,453,524,453,513,456,504,453,492,456,483,452,479,457,466,457,438,457,434,460,429,458,418,453,415,450,427,441,443,439,462,436,488,429,496,428,504,426,508,432,516,433,524,430,525" href="https://www.facebook.com/joannagronowska" target="_blank">
+                <area shape="poly" alt="Filip Jarmużewski" title="Filip Jarmużewski" coords="441,228,435,261,461,327,486,302,485,277,491,277,492,247,494,245,492,229,502,194,498,142,476,131,475,120,477,117,480,108,475,95,464,91,453,96,451,101,452,116,458,125,458,136,445,143,441,176,447,178,442,228" href="https://www.facebook.com/filipjarmużewski" target="_blank">
+                <area shape="poly" coords="398,359,384,363,371,364,365,363,365,357,379,350,374,342,379,337,374,312,378,284,371,245,371,249,363,244,359,235,362,187,366,182,357,177,372,141,392,135,396,123,388,116,390,98,404,94,416,98,420,109,418,120,411,125,412,134,434,147,444,183,437,186,440,207,434,238,435,247,429,254,432,301,436,359,407,360,410,322,401,265,398,288,401,333,401,344,398,359" alt="Jakub Ruda" title="Jakub Ruda" target="_blank" href="https://www.facebook/jakubruda">
+
               </map>
             </div>
+            <p>Generatory map obiektów on-line:</p>
+            <p><a href="https://www.image-map.net" target="_blank">https://www.image-map.net</a></p>
+            <p><a href="https://www.maschek.hu/imagemap/" target="_blank">https://www.maschek.hu/imagemap/</a></p>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
