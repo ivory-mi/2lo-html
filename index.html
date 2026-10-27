@@ -41,6 +41,12 @@
                 <li><a href="#4.2">Mapa odnośników</a></li>
               </ol>
             </li>
+            <li>
+              <a href="#sec5">Tabele</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#5.1">Tworzenie tabel</a></li>
+              </ol>
+            </li>
           </ol>
       </header>
       <section>
@@ -374,6 +380,77 @@
             <p>Generatory map obiektów on-line:</p>
             <p><a href="https://www.image-map.net" target="_blank">https://www.image-map.net</a></p>
             <p><a href="https://www.maschek.hu/imagemap/" target="_blank">https://www.maschek.hu/imagemap/</a></p>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <aside>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <h2 id="sec5">Tabele</h2>
+        <div>
+          <article>
+            <h3><a id="5.1">Tworzenie tabel</a></h3>
+            <!-- opcja border jest przestarzała -->
+            <table style="border-width: 1px; border-color: gray; border-style: dotted; ">
+              <tr>
+                <td>Wiersz 1, Komórka 1</td>
+                <td>Wiersz 1, Komórka 2</td>
+              </tr>
+              <tr>
+                <td>Wiersz 2, Komórka 1</td>
+                <td>Wiersz 2, Komórka 2</td>
+              </tr>
+            </table>
+            <p>Jeżeli cechy style należą do tej samej rodziny, to można je połączyć w odpowiedniej kolejności: "border-width: 1px; border-color: gray; border-style: dotted" można zastąpić "border: 1px gray dotted;"</p>
+            <table style="border: 1px gray dotted; ">
+              <tr>
+                <td style="border: 1px gray dotted; ">Wiersz 1, Komórka 1</td>
+                <td style="border: 1px gray dotted; ">Wiersz 1, Komórka 2</td>
+              </tr>
+              <tr>
+                <td style="border: 1px gray dotted; ">Wiersz 2, Komórka 1</td>
+                <td style="border: 1px gray dotted; ">Wiersz 2, Komórka 2</td>
+              </tr>
+            </table>
+            <p>Aby połączyć krawędzie, należy dodać do style osobną cechę "border-collapse". Trzeba wpisać "border-collapse: <strong>collapse</strong>;".</p>
+            <table style="border: 1px black solid; border-collapse: collapse;">
+              <tr>
+                <td style="border: 1px black solid; ">Wiersz 1, Komórka 1</td>
+                <td style="border: 1px black solid; ">Wiersz 1, Komórka 2</td>
+              </tr>
+              <tr>
+                <td style="border: 1px black solid; ">Wiersz 2, Komórka 1</td>
+                <td style="border: 1px black solid; ">Wiersz 2, Komórka 2</td>
+              </tr>
+            </table>
+            <p>Żeby zmienić rozmiar komórek, musimy dodawać cechy do poszczególnych elementów.</p>
+            <table style="border: 1px black solid; border-collapse: collapse;">
+              <tr style="height: 50px;">
+                <td style="border: 1px black solid; width: 200px; ">Wiersz 1, Komórka 1</td>
+                <td style="border: 1px black solid; width: 200px; ">Wiersz 1, Komórka 2</td>
+              </tr>
+              <tr>
+                <td style="border: 1px black solid; ">Wiersz 2, Komórka 1</td>
+                <td style="border: 1px black solid; ">Wiersz 2, Komórka 2</td>
+              </tr>
+            </table>
+            <p>Żeby zmienić rozmiar komórek, możemy wybrać typ komórki lub musimy dodawać cechy do poszczególnych elementów.</p>
+            <table style="border: 1px black solid; border-collapse: collapse;">
+              <tr style="height: 100px;">
+                <th style="border: 1px black solid; width: 200px; ">Komórka nagłówkowa 1</th>
+                <th style="border: 1px black solid; width: 200px; ">Komórka nagłówkowa 2</th>
+              </tr>
+              <tr style="height: 100px;">
+                <td style="border: 1px black solid; vertical-align: top; ">Wiersz 2, Komórka 1</td>
+                <td style="border: 1px black solid; text-align: right; ">Wiersz 2, Komórka 2</td>
+              </tr>
+              <tr style="height: 100px;">
+                <td style="border: 1px black solid; vertical-align: bottom; ">Wiersz 3, Komórka 1</td>
+                <td style="border: 1px black solid; text-align: center; ">Wiersz 3, Komórka 2</td>
+              </tr>
+            </table>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
