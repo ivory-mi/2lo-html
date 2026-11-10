@@ -1,0 +1,30 @@
+@font-face { font-family: DotGothic16; src: url('DotGothic16.ttf'); }
+
+body {background-color: #eeeeff;}
+
+h2 {
+  color: red; 
+  font-family: Alef, Verdana; 
+}
+
+h3 {
+  color: blue; 
+  font-family: Tahoma; 
+}
+
+ol {list-style-type: lower-alpha; }
+
+table {
+  border: 1px black solid; 
+  border-collapse: collapse; 
+}
+
+tr {height: 50px; }
+
+th, td {
+  border: 1px black solid; 
+  margin: 0px 5px;
+  font-family: Outfit;
+}
+
+li {font-family: 'DM Mono', Courier;}
