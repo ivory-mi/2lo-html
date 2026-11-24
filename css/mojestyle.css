@@ -1,0 +1,13 @@
+* {color: black; }
+body {background-color: #eeeeff;}
+h2 {color: red; font-family: Verdana; }
+h3 {color: blue; font-family: Tahoma; }
+ol {list-style-type: lower-alpha; }
+table {border: 1px black solid; border-collapse: collapse; }
+tr {height: 50px; }
+th, td {border: 1px black solid; margin: 0px 5px; font-family: Outfit, Times; }
+li {font-family: 'DM Mono', Courier; }
+p#podkresl {font-size: 16pt; font-weight: bold; text-decoration: underline; }
+p#pochyl {font-size: 14pt; font-style: italic; }
+p.czerwony {color: red; font-size: 20pt; }
+#brazowy {color: brown; }
