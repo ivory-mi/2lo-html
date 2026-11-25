@@ -7,9 +7,7 @@
     <meta name="generator" content="Notepad2">
     <meta name="robots" content="all">
     <link rel="shortcut icon" type="image/ico" href="img/HTML5-Designbolts.ico">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Outfit&display=swap">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap">
-    <link rel="stylesheet" type="text/css" href="css/mojestyle.css" >
+    <link rel="stylesheet" type="text/css" href="css/mojestyle.css">
     <title>&copy; Michał Werkowski Site</title>
   </head>
   <body style="background-color: #eeeeff;">
@@ -61,16 +59,24 @@
               <a href="#sec6">Nagłówek strony</a>
               <ol style="list-style-type: lower-alpha; ">
                 <li><a href="#6.1">Polecenia META</a></li>
-                <li><a href="#6.1">Polecenia LINK</a></li>
+                <li><a href="#6.2">Polecenia LINK</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="#sec7">Multimedia</a>
+              <ol style="list-style-type: lower-alpha; ">
+                <li><a href="#7.1">Wideo i muzyka</a></li>
+                <li><a href="#7.2">Galeria zdjęć w ramce pływającej</a></li>
+                <li><a href="#7.3">Responzywność grafiki</a></li>
               </ol>
             </li>
           </ol>
       </header>
       <section>
-        <h2><a id="sec1">Kodowanie paragrafów (h2)</a></h2>
+        <h2 id="sec1">Kodowanie paragrafów (h2)</h2>
         <div>
           <article>
-            <h3><a id="1.1">Formatowanie za pomocą poleceń (h3)</a></h3>
+            <h3 id="1.1">Formatowanie za pomocą poleceń (h3)</h3>
             <p>Nagłówki artykułu mogą mieć 4 poziomy od h3 do h6.</p>
             <p>Treść, dużo treści, jeszcze więcej treści...</p>
             <p>Nowy akapit tej strony</p>
@@ -123,7 +129,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="1.2">Kolory w HTMLu.</a></h3>
+            <h3 id="1.2">Kolory w HTMLu.</h3>
             <p>HTML ma 16 kolory podstawowe:
               black, white,
               <span style="color: red;" >red</span>, 
@@ -152,7 +158,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="1.3">Nietypowe paragrafy</a></h3>
+            <h3 id="1.3">Nietypowe paragrafy</h3>
             <p>Kliknij w nazwisko, aby dowiedzieć się więcej o człowieku:</p>
             <details> <!-- kontener treści ukrytej -->
               <summary>Cywiński Kazimierz</summary> <!-- inicjator kontenera -->
@@ -174,10 +180,10 @@
         </div>
       </section>
       <section>
-        <h2><a id="sec2">Listy, czyli wykazy</a></h2>
+        <h2 id="sec2">Listy, czyli wykazy</h2>
         <div>
           <article>
-            <h3><a id="2.1">Listy numerowane</a></h3>
+            <h3 id="2.1">Listy numerowane</h3>
             <ol> <!-- ordinary, uporządkowana -->
               <li>Pierwszy element</li>
               <li>Drugi element</li>
@@ -195,7 +201,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="2.2">Listy punktowane</a></h3>
+            <h3 id="2.2">Listy punktowane</h3>
             <ul> <!-- unordinary, nieuporządkowana // domyślny: disc -->
               <li>Jakiś element</li>
               <li>Jakiś dodatkowy element</li>
@@ -232,7 +238,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="2.3">Listy definicji</a></h3>
+            <h3 id="2.3">Listy definicji</h3>
             <dl>
               <dt>Cywiński Kazimierz</dt>
               <dd>Były uczeń II LO w Elblągu, obecnie kierowca Formuły 1 z największą ilością poll position w jednym sezonie.</dd>
@@ -243,7 +249,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="2.4">Lista wielopoziomowa</a></h3>
+            <h3 id="2.4">Lista wielopoziomowa</h3>
             <ol style="list-style-type: upper-roman; ">
               <li>Punkt pierwszy - poziom pierwszy</li>
               <li>Punkt drugi - poziom pierwszy
@@ -289,10 +295,10 @@
         </div>
       </section>
       <section>
-        <h2><a id="sec3">Odnośniki (linki, hiperłącza, hiperlinki)</a></h2>
+        <h2 id="sec3">Odnośniki (linki, hiperłącza, hiperlinki)</h2>
         <div>
           <article>
-            <h3><a id="3.1">Odnośnik tekstowy do innego serwisu (innej strony)</a></h3>
+            <h3 id="3.1">Odnośnik tekstowy do innego serwisu (innej strony)</h3>
             <!--
               Budowa URL:
               protokół transmisji (http, https, ftp, itp.)
@@ -315,7 +321,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="3.2">Odnośniki złożone i funkcjonalne</a></h3>
+            <h3 id="3.2">Odnośniki złożone i funkcjonalne</h3>
             <p>Kotwice (anchor) wewnętrzne - miejsca w pliku, do których możemy przejść bezpośrednio.</p>
             <p>Przejdź do strony <a href="podstrony/trzecia.html">trzecia.html</a> albo przejdź do tej strony od razu do <a href="podstrony/trzecia.html#szesc">szóstego paragrafu</a>.</p>
             <p>Kotwicę ustawiamy poleceniem anchor z opcją "id".</p>
@@ -323,7 +329,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="3.3">Inne odnośniki</a></h3>
+            <h3 id="3.3">Inne odnośniki</h3>
             <p>Mamy odnośniki od innych protokołów: http, https, ftp, mailto, skype</p>
             <p>Napisz do mnie: <a href="mailto:mw@2lo.elblag.pl">mw@2lo.elblag.pl</a></p>
             <p>Napisz do mnie: <a href="mailto:mw@2lo.elblag.pl?subject=Opinia%20o%20%20serwisie&amp;body=Super%20świetna%20strona!%20Sam%20chciałbym/chciałabym%20mieć%20taką!">mw@2lo.elblag.pl</a></p>
@@ -356,10 +362,10 @@
         </div>
       </section>
       <section>
-        <h2><a id="sec4">Obsługa grafiki</a></h2>
+        <h2 id="sec4">Obsługa grafiki</h2>
         <div>
           <article>
-            <h3><a id="4.1">Wstawianie i wstępne formatowanie zdjęć</a></h3>
+            <h3 id="4.1">Wstawianie i wstępne formatowanie zdjęć</h3>
             <div>
               <img src="img/20250901-Rozpoczecie_roku_szkolnego-1.jpg" style="width: 1020px; " alt="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)" title="Obraz, który przedstawia klasę 1F podczas rozpoczęcia roku szkolnego 2025/2026. (Oryginał: 4080 x 1884)"> <!-- archaizm width -->
               <br>
@@ -375,7 +381,7 @@
             <hr>
           </article>
           <article>
-          <h3><a id="4.2">Mapa odnośników</a></h3>
+          <h3 id="4.2">Mapa odnośników</h3>
             <div>
               <img src="img/odsylacz.gif" usemap="#serwisy" alt="obraz z mapą odnośników">
               <map name="serwisy">
@@ -409,7 +415,7 @@
         <h2 id="sec5">Tabele</h2>
         <div>
           <article>
-            <h3><a id="5.1">Tworzenie tabel</a></h3>
+            <h3 id="5.1">Tworzenie tabel</h3>
             <!-- opcja border jest przestarzała -->
             <table style="border-width: 1px; border-color: gray; border-style: dotted; ">
               <tr>
@@ -473,7 +479,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="5.2">Kompletna, poprawna konstrukcja tabeli</a></h3>
+            <h3 id="5.2">Kompletna, poprawna konstrukcja tabeli</h3>
             <!-- opcja border jest przestarzała -->
             <table>
               <caption>Zestawienie najbogatszych ludzi w Elblągu</caption>
@@ -518,7 +524,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="5.3">Tabela z łączonymi komórkami</a></h3>
+            <h3 id="5.3">Tabela z łączonymi komórkami</h3>
             <div><img src="img/tabelka.jpg" alt="Tabelka" style="width: 800px;"></div>
             <table>
               <caption>Tabela z łączonymi komórkami</caption>
@@ -574,7 +580,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="5.4">Tabela z łączonymi i kolorowanymi komórkami (kolumnami)</a></h3>
+            <h3 id="5.4">Tabela z łączonymi i kolorowanymi komórkami (kolumnami)</h3>
             <table>
               <caption>Tabela z łączonymi i kolorowanymi komórkami</caption>
               <colgroup span="1" style="background-color: lightpink; "></colgroup>
@@ -639,7 +645,7 @@
         <h2 id="sec6">Nagłówek strony</h2>
         <div>
           <article>
-            <h3><a id="6.1">Polecenia META</a></h3>
+            <h3 id="6.1">Polecenia META</h3>
             <p>' meta charset="UTF-8" ' - polecenie dla przeglądarki</p>
             <p>' meta name="" content="" ':</p>
             <ul>
@@ -652,7 +658,7 @@
             <hr>
           </article>
           <article>
-            <h3><a id="6.2">Polecenia LINK</a></h3>
+            <h3 id="6.2">Polecenia LINK</h3>
             <p>' link rel="" type="" href="" ' - polecenie podłączające plik</p>
             <p>link:</p>
             <ul>
@@ -666,6 +672,28 @@
               <li>text/css (dla arkusza stylów i czcionek)</li>
               <li>i inne</li>
             </ul>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <aside>
+          </aside>
+        </div>
+      </section>
+      <section>
+        <h2 id="sec7">Multimedia</h2>
+        <div>
+          <article>
+            <h3 id="7.1">Wideo i muzyka</h3>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3 id="7.2">Galeria zdjęć w ramce pływającej</h3>
+            <p><a href="#st">Wróć na początek</a></p>
+            <hr>
+          </article>
+          <article>
+            <h3 id="7.3">Responzywność grafiki</h3>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>

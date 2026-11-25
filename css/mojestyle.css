@@ -1,3 +1,6 @@
+@font-face { font-family: 'DM Mono'; src: url('DMMono-Regular.ttf'); }
+@font-face { font-family: Outfit; src: url('Outfit.ttf'); }
+
 * {color: black; }
 body {background-color: #eeeeff;}
 h2 {color: red; font-family: Verdana; }
@@ -11,3 +14,8 @@ p#podkresl {font-size: 16pt; font-weight: bold; text-decoration: underline; }
 p#pochyl {font-size: 14pt; font-style: italic; }
 p.czerwony {color: red; font-size: 20pt; }
 #brazowy {color: brown; }
+a {text-decoration: none; }
+a:link {color: blue; font-size: 14pt; }
+a:visited {color: purple;}
+a:hover {color: MediumSlateBlue; font-size: 16pt;}
+a:active {color: red; font-size: 16pt; font-weight: bold; }
