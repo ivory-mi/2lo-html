@@ -19,3 +19,4 @@ a:link {color: blue; font-size: 14pt; }
 a:visited {color: purple;}
 a:hover {color: MediumSlateBlue; font-size: 16pt;}
 a:active {color: red; font-size: 16pt; font-weight: bold; }
+video {width: 80%; }

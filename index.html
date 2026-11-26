@@ -15,7 +15,7 @@
     <div>
       <header>
         <p><a id="st">Spis treści</a></p>
-          <ol>
+          <ol style="list-style-type: lower-alpha; ">
             <li>
               <a href="#sec1">Kodowanie paragrafów</a>
               <ol style="list-style-type: lower-alpha; ">
@@ -184,7 +184,7 @@
         <div>
           <article>
             <h3 id="2.1">Listy numerowane</h3>
-            <ol> <!-- ordinary, uporządkowana -->
+            <ol style="list-style-type: decimal; "> <!-- ordinary, uporządkowana -->
               <li>Pierwszy element</li>
               <li>Drugi element</li>
               <li>Trzeci element</li>
@@ -684,6 +684,35 @@
         <div>
           <article>
             <h3 id="7.1">Wideo i muzyka</h3>
+            <div>
+              <video controls="controls" poster="img/20250921-Integracja_klas_pierwszych-02-scaled.jpg">
+                <source src="vid/Grafika_komputerowa_w_szkole-wprowadzenie.mp4" type="video/mp4">
+              <p>Jeśli nie widzisz filmu, to znaczy, że powinieneś zaktualizować lub zmnienić przeglądarkę lub doinstalować kodek odtwarzania filmów MP4.</p>
+              </video>
+              <!-- opcje video: loop="loop" (odtwarzanie w pętli), autoplay="autoplay" (tylko z) muted="muted", poster="img" -->
+              <!-- obsługiwane standardy video: webm, mp4, 3gp, ogg -->
+              
+              <p>&nbsp;</p>
+              
+              <video controls="controls">
+                <source src="https://www.upskomp.pl/lekcje/Konspekt-1/Konspekt-1.mp4" type="video/mp4">
+                <source src="https://www.upskomp.pl/lekcje/Konspekt-2/Konspekt-2.mp4">
+              <p>Jeśli nie widzisz filmu, to znaczy, że powinieneś zaktualizować lub zmnienić przeglądarkę lub doinstalować kodek odtwarzania filmów MP4.</p>
+              </video>
+            </div>
+            <p>&nbsp;</p>
+            <div>
+              <audio controls="controls">
+                <source src="mus/Crash_Test_Dummies-Mmm_Mmm_Mmm_Mmm.mp3" type="audio/mp3">
+              <p>Jeśli nie widzisz filmu, to znaczy, że powinieneś zaktualizować lub zmnienić przeglądarkę lub doinstalować kodek odtwarzania filmów MP4.</p>
+              </audio>
+              <!-- opcje video: loop="loop" (odtwarzanie w pętli), autoplay="autoplay" (tylko z) muted="muted", poster="img" -->
+              <!-- obsługiwane standardy video: webm, mp3, mp4, oga -->
+              <audio controls="controls">
+                <source src="https://www.upskomp.pl/lekcje/Muzyka/Hymn_II_LO.mp3" type="audio/mp3">
+              <p>Jeśli nie widzisz filmu, to znaczy, że powinieneś zaktualizować lub zmnienić przeglądarkę lub doinstalować kodek odtwarzania filmów MP4.</p>
+              </audio>
+            </div>
             <p><a href="#st">Wróć na początek</a></p>
             <hr>
           </article>
